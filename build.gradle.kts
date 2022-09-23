@@ -4,6 +4,9 @@ plugins {
     `maven-publish`
 }
 
+group = "net.hitmc.brigadierdsl"
+version = "1.0.0"
+
 repositories {
     jcenter()
     maven(url = "https://libraries.minecraft.net")
